@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#lista-chamada {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 500px;
+}
+
+#nome-aluno {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#adicionar-aluno {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#alunos {
+    list-style: none;
+    padding: 0;
+}
+
+#alunos li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+#alunos li.presente {
+    background-color: #77dd77;
+}
+
+#alunos li.ausente {
+    background-color: #ff6666;
+}
